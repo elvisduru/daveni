@@ -1,0 +1,157 @@
+import { animated, useSpring } from '@react-spring/web'
+import Link from 'next/link'
+import useToggle from '../../hooks/useToggle'
+import tw, { css } from 'twin.macro'
+
+export default function Footer() {
+  const [slide, toggleSlide] = useToggle()
+
+  const [springProps, set] = useSpring(() => ({
+    from: {
+      transform: 'translateY(0%)',
+    },
+  }))
+
+  const handleSlide = () => {
+    toggleSlide()
+    set.current[0].start({
+      transform: `translateY(${!slide ? -50 : 0}%)`,
+    })
+  }
+
+  return (
+    <footer tw="px-8 pt-8 md:(px-20 pt-10)">
+      <div
+        onMouseEnter={handleSlide}
+        onMouseLeave={handleSlide}
+        onTouchStart={handleSlide}
+        onTouchCancel={handleSlide}
+        css={`
+          height: calc(100vh - 200px);
+          color: #121212;
+
+          @media (max-width: 500px) {
+            height: 200px;
+          }
+        `}
+        tw="bg-primary cursor-pointer font-semibold text-4xl px-5 leading-tight text-center md:(text-7xl leading-relaxed) flex items-center justify-center"
+      >
+        <Link href="/contact">
+          <a tw="overflow-hidden h-24 md:h-36">
+            <animated.div style={springProps}>
+              <h2>Let's grab a coffee</h2>
+              <h2>and take over the world</h2>
+            </animated.div>
+          </a>
+        </Link>
+      </div>
+      <div tw="pt-10 flex flex-col">
+        <button
+          tw="flex items-center self-end relative"
+          css={`
+            & :first-child {
+              font-size: 40px;
+              transition: 0.2s margin-top ease-in-out;
+              position: absolute;
+              left: -1.5rem;
+              margin-top: -10px;
+            }
+            &:hover :first-child {
+              margin-top: -30px;
+            }
+          `}
+        >
+          <span>&uarr;</span>
+          <span
+            onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: 'smooth',
+              })
+            }}
+          >
+            Top
+          </span>
+        </button>
+        <div tw="flex flex-col py-10 md:flex-row">
+          <div tw="flex flex-col items-start mb-12 md:(max-w-sm mr-12 flex-row)">
+            <img tw="mb-8 md:mr-8 w-24" src="images/logo.svg" alt="Daveni" />
+            <p tw="font-medium">
+              We are proudly accountable to a better way of doing business. We
+              actively pursue the wellbeing of staff, communities and
+              environment and help the clients we work with do so as well.
+            </p>
+          </div>
+          <div
+            tw="text-xl md:text-2xl leading-normal"
+            css={`
+              text-decoration: underline;
+              text-decoration-thickness: 1px;
+              text-underline-offset: 5px;
+            `}
+          >
+            <a tw="transition hocus:opacity-80" href="https://google.com">
+              3 GbemiOluwa Close <br /> Sule Abukar Crescent <br /> Opebi <br />
+              Ikeja, Lagos.
+            </a>
+            <p tw="cursor-pointer mt-5 transition hocus:opacity-80">
+              Subscribe to our newsletter
+            </p>
+          </div>
+          <div
+            tw="text-xl md:text-2xl leading-normal md:ml-auto"
+            css={`
+              & a {
+                text-decoration: underline;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 5px;
+              }
+            `}
+          >
+            <a href="tel:+2348085799962">(234) 808-579-9962</a> <br />
+            <a href="mailto:hello@daveni.co">hello@daveni.co</a>
+            <div tw="mt-5">
+              <h5 tw="font-medium mb-2">Follow us</h5>
+              <ul
+                tw="flex"
+                css={`
+                  & li {
+                    margin-right: 2rem;
+                    border: 1px solid black;
+                    border-radius: 100%;
+                    height: 4rem;
+                    width: 4rem;
+                    vertical-align: middle;
+                    text-align: center;
+                    line-height: 4rem;
+                    cursor: pointer;
+                  }
+
+                  @media (max-width: 500px) {
+                    & li {
+                      margin-right: 1rem;
+                      height: 3.5rem;
+                      width: 3.5rem;
+                      line-height: 3.5rem;
+                    }
+                  }
+
+                  & li:hover {
+                    background-color: black;
+                    color: white;
+                  }
+                `}
+              >
+                <li>FB</li>
+                <li>TW</li>
+                <li>INS</li>
+                <li>LKD</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
