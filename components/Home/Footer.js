@@ -1,7 +1,7 @@
 import { animated, useSpring } from '@react-spring/web'
 import Link from 'next/link'
 import useToggle from '../../hooks/useToggle'
-import tw, { css } from 'twin.macro'
+import 'twin.macro'
 
 export default function Footer() {
   const [slide, toggleSlide] = useToggle()
@@ -20,7 +20,7 @@ export default function Footer() {
   }
 
   return (
-    <footer tw="px-8 pt-8 md:(px-20 pt-10)">
+    <footer tw="px-8 pt-8 lg:(px-20 pt-10)">
       <div
         onMouseEnter={handleSlide}
         onMouseLeave={handleSlide}
@@ -30,14 +30,14 @@ export default function Footer() {
           height: calc(100vh - 200px);
           color: #121212;
 
-          @media (max-width: 500px) {
+          @media (max-width: 800px) {
             height: 200px;
           }
         `}
-        tw="bg-primary cursor-pointer font-semibold text-4xl px-5 leading-tight text-center md:(text-7xl leading-relaxed) flex items-center justify-center"
+        tw="bg-primary cursor-pointer font-semibold text-4xl px-5 leading-tight text-center lg:(text-7xl leading-relaxed) flex items-center justify-center"
       >
         <Link href="/contact">
-          <a tw="overflow-hidden h-24 md:h-36">
+          <a tw="overflow-hidden h-24 lg:h-36">
             <animated.div style={springProps}>
               <h2>Let's grab a coffee</h2>
               <h2>and take over the world</h2>
@@ -74,9 +74,9 @@ export default function Footer() {
             Top
           </span>
         </button>
-        <div tw="flex flex-col py-10 md:flex-row">
-          <div tw="flex flex-col items-start mb-12 md:(max-w-sm mr-12 flex-row)">
-            <img tw="mb-8 md:mr-8 w-24" src="images/logo.svg" alt="Daveni" />
+        <div tw="flex flex-col py-10 lg:flex-row">
+          <div tw="flex flex-col items-start mb-12 lg:(max-w-sm mr-12 flex-row)">
+            <img tw="mb-8 lg:mr-8 w-24" src="images/logo.svg" alt="Daveni" />
             <p tw="font-medium">
               We are proudly accountable to a better way of doing business. We
               actively pursue the wellbeing of staff, communities and
@@ -84,7 +84,7 @@ export default function Footer() {
             </p>
           </div>
           <div
-            tw="text-xl md:text-2xl leading-normal"
+            tw="text-xl lg:text-2xl leading-normal"
             css={`
               text-decoration: underline;
               text-decoration-thickness: 1px;
@@ -100,7 +100,7 @@ export default function Footer() {
             </p>
           </div>
           <div
-            tw="text-xl md:text-2xl leading-normal md:ml-auto"
+            tw="text-xl lg:text-2xl leading-normal lg:ml-auto"
             css={`
               & a {
                 text-decoration: underline;

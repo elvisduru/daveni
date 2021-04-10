@@ -38,10 +38,12 @@ const Card = styled.div(({ bgImage }) => [
 
 // const springs = useSprings()
 
-export default function Programs() {
+export default function Programs({ headingSm, title = 'Popular Programs' }) {
   return (
     <Section tw="px-10 flex flex-col items-center md:px-52">
-      <Heading2 tw="text-center text-3xl">Popular Programs</Heading2>
+      <Heading2 css={[tw`text-center`, headingSm ? tw`text-lg` : tw`text-3xl`]}>
+        {title}
+      </Heading2>
       <hr tw="mt-3 bg-center bg-no-repeat border-0 bg-contain h-5 w-56 background-image[url(images/heading-line-black.png)]" />
       <div tw="grid auto-cols-max gap-5 md:grid-cols-4">
         {programs.map(({ image, title, url }, i) =>
