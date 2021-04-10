@@ -58,7 +58,7 @@ export default function Hero() {
       style={{
         ...props,
         willChange: 'opacity',
-        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(images/${item.url})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(/images/${item.url})`,
       }}
     >
       <div tw="text-center m-auto flex flex-col items-center">

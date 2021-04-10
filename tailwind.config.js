@@ -11,6 +11,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
+        serif: ['Cinzel Decorative', ...defaultTheme.fontFamily.serif],
         mono: ['Permanent Marker', ...defaultTheme.fontFamily.mono],
       },
     },

@@ -4,7 +4,12 @@ export const Section = tw.section`px-10 py-12 md:(px-32 py-24)`
 export const Heading2 = tw.h2`mt-0 font-semibold`
 export const PageHeader = styled.div(({ image = 'citizen-header' }) => [
   tw`flex flex-col justify-center px-5 h-60 md:(px-32 h-80) text-white bg-cover bg-center bg-no-repeat`,
-  `background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(images/${image}.jpg)`,
+  `background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/${image}.jpg);`,
+])
+
+export const ProgramHero = styled.section(({ bgImage }) => [
+  tw`flex flex-col justify-center px-10 text-white bg-cover bg-center bg-no-repeat`,
+  `height: calc(100vh - 200px);`,
 ])
 
 const svgStyles = css`
@@ -69,7 +74,7 @@ export const Blobs = () => (
           height="500"
         >
           <image
-            href="images/man-sunset.jpg"
+            href="/images/man-sunset.jpg"
             x="-100"
             y="0"
             width="650"

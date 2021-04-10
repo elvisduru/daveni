@@ -3,7 +3,7 @@ import Link from 'next/link'
 import useToggle from '../../hooks/useToggle'
 import 'twin.macro'
 
-export default function Footer() {
+export default function Footer({ noCallout }) {
   const [slide, toggleSlide] = useToggle()
 
   const [springProps, set] = useSpring(() => ({
@@ -27,6 +27,7 @@ export default function Footer() {
         onTouchStart={handleSlide}
         onTouchCancel={handleSlide}
         css={`
+          display: ${noCallout ? 'none' : 'flex'};
           height: calc(100vh - 200px);
           color: #121212;
 
@@ -34,7 +35,7 @@ export default function Footer() {
             height: 200px;
           }
         `}
-        tw="bg-primary cursor-pointer font-semibold text-4xl px-5 leading-tight text-center lg:(text-7xl leading-relaxed) flex items-center justify-center"
+        tw="bg-primary cursor-pointer font-semibold text-4xl px-5 leading-tight text-center lg:(text-7xl leading-relaxed) items-center justify-center"
       >
         <Link href="/contact">
           <a tw="overflow-hidden h-24 lg:h-36">
@@ -76,7 +77,7 @@ export default function Footer() {
         </button>
         <div tw="flex flex-col py-10 lg:flex-row">
           <div tw="flex flex-col items-start mb-12 lg:(max-w-sm mr-12 flex-row)">
-            <img tw="mb-8 lg:mr-8 w-24" src="images/logo.svg" alt="Daveni" />
+            <img tw="mb-8 lg:mr-8 w-24" src="/images/logo.svg" alt="Daveni" />
             <p tw="font-medium">
               We are proudly accountable to a better way of doing business. We
               actively pursue the wellbeing of staff, communities and

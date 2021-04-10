@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Footer from '../components/Home/Footer'
-import Testimonial from '../components/Home/Testimonial'
-import NavBar from '../components/NavBar'
-import ProgramSection from '../components/Home/Programs'
-import { Heading2, PageHeader, Section } from '../components/Common'
+import Footer from '../../components/Home/Footer'
+import Testimonial from '../../components/Home/Testimonial'
+import NavBar from '../../components/NavBar'
+import ProgramSection from '../../components/Home/Programs'
+import { Heading2, PageHeader, Section } from '../../components/Common'
 import 'twin.macro'
 
 export default function Programs() {

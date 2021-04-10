@@ -65,7 +65,7 @@ export default function NavBar() {
     >
       <Link href="/">
         <a tw="w-7 flex h-full items-center cursor-pointer">
-          <img src="images/logo.svg" alt="Daveni" />
+          <img src="/images/logo.svg" alt="Daveni" />
         </a>
       </Link>
       <NavBtn toggleNav={toggleOpenNav} />

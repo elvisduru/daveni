@@ -59,7 +59,7 @@ export default function Testimonial() {
     >
       <img
         tw="rounded-full shadow-2xl w-20 h-20 md:(w-32 h-32) mb-8"
-        src={`images/${item.image}`}
+        src={`/images/${item.image}`}
         alt="Elvis Duru"
       />
       <p tw="text-xs mb-4 md:(mb-8 text-lg)">{item.text}</p>
@@ -69,7 +69,7 @@ export default function Testimonial() {
 
   return (
     <Section
-      tw="overflow-hidden flex flex-col items-center bg-center bg-cover bg-fixed background-image[url(images/testimonials.jpg)] text-white bg-no-repeat text-center mt-20"
+      tw="overflow-hidden flex flex-col items-center bg-center bg-cover bg-fixed background-image[url(/images/testimonials.jpg)] text-white bg-no-repeat text-center mt-20"
       css={`
         height: 85vh;
       `}
@@ -77,7 +77,7 @@ export default function Testimonial() {
       <Heading2 tw="text-2xl md:text-4xl">
         Don't just take our word for it.
       </Heading2>
-      <hr tw="mt-3 mb-12 md:(mt-5 mb-16) bg-center bg-no-repeat border-0 bg-contain h-5 w-56 background-image[url(images/heading-line-white.png)]" />
+      <hr tw="mt-3 mb-12 md:(mt-5 mb-16) bg-center bg-no-repeat border-0 bg-contain h-5 w-56 background-image[url(/images/heading-line-white.png)]" />
       <Wrapper>
         <div tw="col-span-full">{fragment}</div>
         <Control onClick={slideLeft} tw="-left-4 md:-left-24">
