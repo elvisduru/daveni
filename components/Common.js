@@ -7,10 +7,27 @@ export const PageHeader = styled.div(({ image = 'citizen-header' }) => [
   `background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/${image}.jpg);`,
 ])
 
-export const ProgramHero = styled.section(({ bgImage }) => [
+export const ProgramHero = styled.section(({ image = 'vanuatu' }) => [
   tw`flex flex-col justify-center px-10 text-white bg-cover bg-center bg-no-repeat`,
-  `height: calc(100vh - 200px);`,
+  `
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/${image}.jpg);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+
+    @media (min-width: 500px) {
+      height: calc(100vh - 400px);
+      padding: 0;
+    }
+
+    @media (min-width: 1000px) {
+      height: 100vh;
+    }
+  `,
 ])
+
+export const ProgramHeading = tw.h1`font-serif text-5xl font-bold relative after:(content block w-20 md:w-full h-0.5 absolute bg-white -bottom-3)`
+
+export const ProgramLeading = tw.p`mt-10`
 
 const svgStyles = css`
   position: relative;
