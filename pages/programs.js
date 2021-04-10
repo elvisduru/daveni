@@ -15,7 +15,7 @@ export default function Programs() {
         </title>
       </Head>
       <NavBar />
-      <PageHeader>
+      <PageHeader image="fine-building">
         <h1 tw="font-semibold text-2xl mt-5">Global Citizen Programs</h1>
         <p tw="text-xs mt-2 leading-relaxed color[#D9A55A] max-width[30ex]">
           Review available options. Obtain personalized advice. Make the right

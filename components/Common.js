@@ -1,8 +1,11 @@
-import tw, { css } from 'twin.macro'
+import tw, { css, styled } from 'twin.macro'
 
 export const Section = tw.section`px-10 py-12 md:(px-32 py-24)`
 export const Heading2 = tw.h2`mt-0 font-semibold`
-export const PageHeader = tw.div`flex flex-col justify-center px-5 md:(px-32) text-white h-60 background-image[linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(images/citizen-header.jpg)] bg-cover bg-center bg-no-repeat`
+export const PageHeader = styled.div(({ image = 'citizen-header' }) => [
+  tw`flex flex-col justify-center px-5 h-60 md:(px-32 h-80) text-white bg-cover bg-center bg-no-repeat`,
+  `background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(images/${image}.jpg)`,
+])
 
 const svgStyles = css`
   position: relative;
