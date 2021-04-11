@@ -2,11 +2,15 @@ import tw from 'twin.macro'
 import Link from 'next/link'
 import ActiveLink from './ActiveLink'
 import useToggle from '../hooks/useToggle'
-import { useRef, useEffect } from 'react'
+import { useCallback } from 'react'
 
 const NavItem = tw.a`h-full flex items-center border-b border-white border-opacity-0 ml-10 cursor-pointer hocus:border-opacity-100`
 
 const links = [
+  {
+    name: 'Home',
+    link: '/',
+  },
   {
     name: 'About Us',
     link: '/about',
@@ -31,15 +35,19 @@ const links = [
 
 export default function NavBar() {
   const [openNav, toggleOpenNav] = useToggle()
-  const navBarEl = useRef(null)
 
-  const handleScroll = () => {
-    if (window.scrollY > navBarEl.current.offsetHeight) {
-      navBarEl.current.style.backgroundColor = '#181818'
-    } else {
-      navBarEl.current.style.backgroundColor = 'transparent'
+  const navBarEl = useCallback(node => {
+    if (node !== null) {
+      const handleScroll = () => {
+        if (window.scrollY > node.getBoundingClientRect().height) {
+          node.style.backgroundColor = '#181818'
+        } else {
+          node.style.backgroundColor = 'transparent'
+        }
+      }
+      window.addEventListener('scroll', handleScroll)
     }
-  }
+  }, [])
 
   const NavBtn = ({ toggleNav }) => (
     <div
@@ -50,13 +58,6 @@ export default function NavBar() {
       <div tw="w-4 h-0.5 bg-white"></div>
     </div>
   )
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [])
 
   return (
     <nav

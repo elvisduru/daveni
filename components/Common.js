@@ -29,6 +29,20 @@ export const ProgramHeading = tw.h1`font-serif text-5xl font-bold relative after
 
 export const ProgramLeading = tw.p`mt-10`
 
+export const ProgramStats = tw(({ className, stats }) => (
+  <div className={className}>
+    {stats.map(({ icon, title, value }, i) => (
+      <div
+        key={i}
+        tw="flex flex-col leading-tight items-center text-center border border-white border-opacity-20 p-2 bg-fixed bg-opacity-20 rounded-sm text-sm"
+      >
+        <img tw="w-10 mb-3" src={icon} alt={title} />
+        <p>{value}</p>
+      </div>
+    ))}
+  </div>
+))`grid grid-cols-2 gap-2 md:grid-cols-5 lg:(mx-auto width[70vw]) bg-black bg-opacity-25 p-3 mt-auto`
+
 const svgStyles = css`
   position: relative;
   min-width: 60%;

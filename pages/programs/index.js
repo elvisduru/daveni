@@ -22,7 +22,7 @@ export default function Programs() {
           choice.
         </p>
       </PageHeader>
-      <Section>
+      <Section tw="py-0 pt-10 md:(py-0 pt-12)">
         <Heading2 tw="mb-3">Join The Global Citizen Community</Heading2>
         <p>
           Members of the Global Citizen community are entitled to a supreme
