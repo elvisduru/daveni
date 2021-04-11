@@ -66,29 +66,31 @@ export default function Programs({ headingSm, title = 'Popular Programs' }) {
               </div>
             </Card>
           ) : (
-            <Card key={i} tw="h-64" bgImage={image}>
-              <div tw="flex justify-between relative">
-                <div tw="bg-white text-sm shadow-lg w-7 h-7 p-1 flex justify-center items-center rounded-full">
-                  5 <span className="star" tw="w-3 h-3" />
-                </div>
-                <div
-                  tw="bg-white shadow rounded-full px-3 ml-2 flex items-center font-semibold max-w-max leading-tight flex-grow-0"
-                  style={{ fontSize: 10 }}
-                >
-                  Citizenship By Investment
-                </div>
-              </div>
-              <div tw="flex flex-col mt-auto">
-                <h4 tw="text-white font-semibold text-2xl leading-tight">
-                  {title}
-                </h4>
-                <Link href={url}>
-                  <a tw="font-semibold text-white mt-3 cursor-pointer hover:text-primary">
-                    Explore &nbsp; <span>&#10230;</span>
-                  </a>
-                </Link>
-              </div>
-            </Card>
+            <Link href={url}>
+              <a>
+                <Card key={i} tw="h-64" bgImage={image}>
+                  <div tw="flex justify-between relative">
+                    <div tw="bg-white text-sm shadow-lg w-7 h-7 p-1 flex justify-center items-center rounded-full">
+                      5 <span className="star" tw="w-3 h-3" />
+                    </div>
+                    <div
+                      tw="bg-white shadow rounded-full px-3 ml-2 flex items-center font-semibold max-w-max leading-tight flex-grow-0"
+                      style={{ fontSize: 10 }}
+                    >
+                      Citizenship By Investment
+                    </div>
+                  </div>
+                  <div tw="flex flex-col ali mt-auto">
+                    <h4 tw="text-white font-semibold text-2xl leading-tight">
+                      {title}
+                    </h4>
+                    <button tw="font-semibold text-white mt-3 cursor-pointer hover:text-primary">
+                      Explore &nbsp; <span>&#10230;</span>
+                    </button>
+                  </div>
+                </Card>
+              </a>
+            </Link>
           ),
         )}
       </div>
