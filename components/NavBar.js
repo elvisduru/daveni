@@ -24,10 +24,6 @@ const links = [
     link: '/programs',
   },
   {
-    name: 'Media',
-    link: '/media',
-  },
-  {
     name: 'Contact Us',
     link: '/contact',
   },
