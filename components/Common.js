@@ -3,7 +3,7 @@ import tw, { css, styled } from 'twin.macro'
 export const Section = tw.section`px-5 py-12 md:(px-32 py-16)`
 export const Heading2 = tw.h2`font-serif mt-0 mb-3 text-xl md:text-4xl font-semibold`
 
-export const Heading3 = tw.h2`mt-3 mb-2 text-lg md:text-2xl font-semibold`
+export const Heading3 = tw.h2`font-serif mt-7 mb-2 text-lg md:text-2xl font-semibold`
 export const PageHeader = styled.div(({ image = 'citizen-header' }) => [
   tw`flex flex-col justify-center px-6 h-60 md:(px-32 h-80) text-white bg-cover bg-center bg-no-repeat`,
   `background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/${image}.jpg);`,

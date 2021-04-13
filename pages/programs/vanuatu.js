@@ -115,7 +115,35 @@ export default function Vanuatu() {
           approximately 270,000 and encompasses a diversity of languages spoken
           such as French, English and Bislama.
         </p>
-        <Heading3></Heading3>
+        <Heading3>Secure Your Vanuatu Citizenship By Investment</Heading3>
+        <p>
+          The team of skilled and knowledgeable experts at Daveni Partners are
+          dedicated to ensuring that our clients have a transparent and
+          hassle-free journey towards the acquisition of their citizenship and
+          residency. We aim to offer a gateway to freedom to our clients through
+          Government approved investment programs that helps them secure their
+          family’s future. With the help of our highly competent and experienced
+          team, you can gain your second citizenship and have your Vanuatu
+          passport in hand through legal and legitimate programs.
+        </p>
+        <Heading3>Become a Global Citizen - Call Us Today</Heading3>
+        <p
+          css={`
+            & a {
+              color: #f1ab41;
+            }
+          `}
+        >
+          For further information about how we can help you acquire your second
+          citizenship, feel free to give us a call at{' '}
+          <a href="tel:+2348085799962">(234) 808-579-9962</a>. You can also
+          contact us through email at{' '}
+          <a href="mailto:hello@daveni.co">hello@daveni.co</a> or fill in our{' '}
+          <Link href="/contact">
+            <a>online contact form</a>
+          </Link>
+          , and we will reply back as soon as possible.
+        </p>
       </Section>
       <Footer noCallout />
     </main>
