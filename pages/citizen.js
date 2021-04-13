@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Footer from '../components/Home/Footer'
 import Testimonial from '../components/Home/Testimonial'
 import NavBar from '../components/NavBar'
-import { Heading2, PageHeader, Section } from '../components/Common'
+import { Heading3, PageHeader, Section } from '../components/Common'
 import 'twin.macro'
 import Link from 'next/link'
 
@@ -26,7 +26,7 @@ export default function Citizen() {
           }
         `}
       >
-        <Heading2>What is a Global Citizen?</Heading2>
+        <Heading3>What is a Global Citizen?</Heading3>
         <p>
           We have been asking ourselves this question with intensifying
           frequency over the past five years, not only as industry experts, but
@@ -44,9 +44,9 @@ export default function Citizen() {
           our clients, partners and friends. And we are here to empower them and
           involve them in the global citizen movement.
         </p>
-        <Heading2 tw="mt-8">
+        <Heading3 tw="mt-8">
           Do you consider yourself a global citizen?
-        </Heading2>
+        </Heading3>
         <p>
           Whether you are seeking permanent residency or a second citizenship,
           it all starts with Arton through our unparalleled range of innovative,
@@ -54,10 +54,10 @@ export default function Citizen() {
           Citizen can help you create the opportunities you need to make the
           world a better place for yourself, your family and for all of us.
         </p>
-        <Heading2 tw="mt-8">
+        <Heading3 tw="mt-8">
           Are you a professional service provider with expertise in global
           migration and wealth management?
-        </Heading2>
+        </Heading3>
         <p>
           Our burgeoning industry requires focused teamwork to ensure that our
           clients receive the best service possible from the start of the
@@ -66,10 +66,10 @@ export default function Citizen() {
           citizens to have the required guidance whenever, wherever they need
           it.
         </p>
-        <Heading2 tw="mt-8">
+        <Heading3 tw="mt-8">
           Are you a government representative seeking to improve your country’s
           economy?
-        </Heading2>
+        </Heading3>
         <p>
           Residency by investment and citizenship by investment programs open up
           an incredible revenue stream to governments. These programs can fund

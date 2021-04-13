@@ -3,7 +3,7 @@ import Footer from '../../components/Home/Footer'
 import Testimonial from '../../components/Home/Testimonial'
 import NavBar from '../../components/NavBar'
 import ProgramSection from '../../components/Home/Programs'
-import { Heading2, PageHeader, Section } from '../../components/Common'
+import { Heading3, PageHeader, Section } from '../../components/Common'
 import 'twin.macro'
 
 export default function Programs() {
@@ -23,7 +23,7 @@ export default function Programs() {
         </p>
       </PageHeader>
       <Section tw="py-0 pt-10 md:(py-0 pt-12)">
-        <Heading2>Join The Global Citizen Community</Heading2>
+        <Heading3>Join The Global Citizen Community</Heading3>
         <p>
           Members of the Global Citizen community are entitled to a supreme
           level of choice in terms of mobility, standard of living, education,
@@ -32,7 +32,7 @@ export default function Programs() {
           through our Global Citizen programs, products and services that offer
           a unique set of benefits and privileges.
         </p>
-        <Heading2 tw="mt-8">Program Evaluation</Heading2>
+        <Heading3 tw="mt-8">Program Evaluation</Heading3>
         <p>
           Each Global Citizen program offers a host of unique benefits. We have
           have provided benchmarks against which each program can be evaluated

@@ -285,7 +285,7 @@ export default function Vanuatu() {
           <li>Germany</li>
         </ul>
       </Section>
-      <Footer noCallout />
+      <Footer />
     </main>
   )
 }
