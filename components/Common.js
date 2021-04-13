@@ -1,9 +1,11 @@
 import tw, { css, styled } from 'twin.macro'
 
-export const Section = tw.section`px-10 py-12 md:(px-32 py-24)`
-export const Heading2 = tw.h2`mt-0 font-semibold`
+export const Section = tw.section`px-5 py-12 md:(px-32 py-16)`
+export const Heading2 = tw.h2`font-serif mt-0 mb-3 text-xl md:text-4xl font-semibold`
+
+export const Heading3 = tw.h2`mt-3 mb-2 text-lg md:text-2xl font-semibold`
 export const PageHeader = styled.div(({ image = 'citizen-header' }) => [
-  tw`flex flex-col justify-center px-5 h-60 md:(px-32 h-80) text-white bg-cover bg-center bg-no-repeat`,
+  tw`flex flex-col justify-center px-6 h-60 md:(px-32 h-80) text-white bg-cover bg-center bg-no-repeat`,
   `background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/${image}.jpg);`,
 ])
 
@@ -34,7 +36,7 @@ export const ProgramStats = tw(({ className, stats }) => (
     {stats.map(({ icon, title, value }, i) => (
       <div
         key={i}
-        tw="flex flex-col leading-tight items-center text-center border border-white border-opacity-20 p-2 bg-fixed bg-opacity-20 rounded-sm text-sm"
+        tw="flex flex-col leading-tight items-center text-center border border-white border-opacity-20 p-2 bg-fixed bg-opacity-20 rounded-sm text-sm hover:text-primary"
       >
         <img tw="w-10 mb-3" src={icon} alt={title} />
         <p>{value}</p>
@@ -42,6 +44,8 @@ export const ProgramStats = tw(({ className, stats }) => (
     ))}
   </div>
 ))`grid grid-cols-2 gap-2 md:grid-cols-5 lg:(mx-auto width[70vw]) bg-black bg-opacity-25 p-3 mt-auto`
+
+export const ProgramQuote = tw.div`text-black text-opacity-80 text-sm border-l-4 border-primary rounded pl-2 my-6`
 
 const svgStyles = css`
   position: relative;
@@ -57,7 +61,7 @@ const svgStyles = css`
   }
 
   @media (max-width: 500px) {
-    min-width: 120%;
+    min-width: 100vw;
     height: 20rem;
   }
 `
@@ -95,7 +99,7 @@ export const Blobs = () => (
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width="100%"
-      id="blobSvg"
+      className="blobSvg"
     >
       <defs>
         <pattern
@@ -114,7 +118,7 @@ export const Blobs = () => (
         </pattern>
       </defs>
       <path
-        id="blob"
+        className="blob"
         d="M431.5,357Q374,464,257,452.5Q140,441,78,345.5Q16,250,92.5,180Q169,110,255.5,100Q342,90,415.5,170Q489,250,431.5,357Z"
         fill="url(#img1)"
       ></path>

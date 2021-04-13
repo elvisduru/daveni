@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import tw, { styled } from 'twin.macro'
+import tw, { styled, css } from 'twin.macro'
 import { Heading2, Section } from '../Common'
 
 const programs = [
@@ -35,6 +35,13 @@ const Card = styled.div(({ bgImage }) => [
   `background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)), url(/images/${bgImage});`,
 ])
 
+const hoverStyles = css`
+  cursor: pointer;
+  &:hover button {
+    color: #ecaa2c;
+  }
+`
+
 export default function Programs({ headingSm, title = 'Popular Programs' }) {
   return (
     <Section tw="px-10 flex flex-col items-center lg:px-52">
@@ -45,9 +52,9 @@ export default function Programs({ headingSm, title = 'Popular Programs' }) {
       <div tw="grid auto-cols-max gap-5 md:grid-cols-2 lg:grid-cols-4">
         {programs.map(({ image, title, url }, i) =>
           i === 0 ? (
-            <Link href={url}>
-              <a tw="mt-8 col-span-full">
-                <Card key={i} bgImage={image}>
+            <Link key={i} href={url}>
+              <a tw="mt-8 col-span-full" css={hoverStyles}>
+                <Card bgImage={image}>
                   <div tw="flex justify-between relative">
                     <div tw="bg-white shadow-lg w-7 h-7 p-1 flex justify-center items-center rounded-full">
                       5 <span className="star" tw="w-3 h-3" />
@@ -57,8 +64,10 @@ export default function Programs({ headingSm, title = 'Popular Programs' }) {
                     </div>
                   </div>
                   <div tw="flex flex-col mt-auto">
-                    <h4 tw="text-white font-semibold text-6xl">{title}</h4>
-                    <button tw="font-semibold text-white text-left mt-3 cursor-pointer hover:text-primary">
+                    <h4 tw="text-white font-serif font-semibold text-6xl">
+                      {title}
+                    </h4>
+                    <button tw="font-semibold text-white text-left mt-3">
                       Explore &nbsp; <span>&#10230;</span>
                     </button>
                   </div>
@@ -66,9 +75,9 @@ export default function Programs({ headingSm, title = 'Popular Programs' }) {
               </a>
             </Link>
           ) : (
-            <Link href={url}>
-              <a>
-                <Card key={i} tw="h-64" bgImage={image}>
+            <Link key={i} href={url}>
+              <a css={hoverStyles}>
+                <Card tw="h-64" bgImage={image}>
                   <div tw="flex justify-between relative">
                     <div tw="bg-white text-sm shadow-lg w-7 h-7 p-1 flex justify-center items-center rounded-full">
                       5 <span className="star" tw="w-3 h-3" />
@@ -81,10 +90,10 @@ export default function Programs({ headingSm, title = 'Popular Programs' }) {
                     </div>
                   </div>
                   <div tw="flex flex-col mt-auto">
-                    <h4 tw="text-white font-semibold text-2xl leading-tight">
+                    <h4 tw="text-white font-serif font-semibold text-2xl leading-tight">
                       {title}
                     </h4>
-                    <button tw="font-semibold text-white text-left mt-3 cursor-pointer hover:text-primary">
+                    <button tw="font-semibold text-white text-left mt-3">
                       Explore &nbsp; <span>&#10230;</span>
                     </button>
                   </div>

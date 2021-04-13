@@ -74,9 +74,7 @@ export default function Testimonial() {
         height: 85vh;
       `}
     >
-      <Heading2 tw="text-2xl md:text-4xl">
-        Don't just take our word for it.
-      </Heading2>
+      <Heading2>Don't just take our word for it.</Heading2>
       <hr tw="mt-3 mb-12 md:(mt-5 mb-16) bg-center bg-no-repeat border-0 bg-contain h-5 w-56 background-image[url(/images/heading-line-white.png)]" />
       <Wrapper>
         <div tw="col-span-full">{fragment}</div>

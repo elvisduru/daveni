@@ -15,7 +15,7 @@ export default function Citizen() {
       <NavBar />
       <PageHeader>
         <h1 tw="font-semibold text-2xl">Are You a Global Citizen?</h1>
-        <p tw="text-xs mt-2 leading-relaxed color[#D9A55A] max-width[30ex]">
+        <p tw="text-sm mt-2 leading-relaxed color[#D9A55A] max-width[30ex]">
           Let us help you become one
         </p>
       </PageHeader>
@@ -26,7 +26,7 @@ export default function Citizen() {
           }
         `}
       >
-        <Heading2 tw="mb-3">What is a Global Citizen?</Heading2>
+        <Heading2>What is a Global Citizen?</Heading2>
         <p>
           We have been asking ourselves this question with intensifying
           frequency over the past five years, not only as industry experts, but
@@ -44,7 +44,7 @@ export default function Citizen() {
           our clients, partners and friends. And we are here to empower them and
           involve them in the global citizen movement.
         </p>
-        <Heading2 tw="mb-3 mt-8">
+        <Heading2 tw="mt-8">
           Do you consider yourself a global citizen?
         </Heading2>
         <p>
@@ -54,7 +54,7 @@ export default function Citizen() {
           Citizen can help you create the opportunities you need to make the
           world a better place for yourself, your family and for all of us.
         </p>
-        <Heading2 tw="mb-3 mt-8">
+        <Heading2 tw="mt-8">
           Are you a professional service provider with expertise in global
           migration and wealth management?
         </Heading2>
@@ -66,7 +66,7 @@ export default function Citizen() {
           citizens to have the required guidance whenever, wherever they need
           it.
         </p>
-        <Heading2 tw="mb-3 mt-8">
+        <Heading2 tw="mt-8">
           Are you a government representative seeking to improve your country’s
           economy?
         </Heading2>

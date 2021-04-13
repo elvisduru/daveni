@@ -26,7 +26,9 @@ export default function Partners() {
   return (
     <Section tw="flex flex-col justify-between items-center md:flex-row">
       <div>
-        <h2 tw="font-semibold text-3xl pl-4">Join Our Global Network</h2>
+        <h2 tw="font-semibold font-serif text-3xl pl-4">
+          Join Our Global Network
+        </h2>
         <hr tw="border-2 border-primary mt-2 mb-6 w-16 ml-4" />
         {partnerList.map((item, i) => (
           <PartnerItem

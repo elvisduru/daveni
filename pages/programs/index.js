@@ -17,13 +17,13 @@ export default function Programs() {
       <NavBar />
       <PageHeader image="fine-building">
         <h1 tw="font-semibold text-2xl mt-5">Global Citizen Programs</h1>
-        <p tw="text-xs mt-2 leading-relaxed color[#D9A55A] max-width[30ex]">
+        <p tw="text-sm mt-2 leading-relaxed color[#D9A55A] max-width[30ex]">
           Review available options. Obtain personalized advice. Make the right
           choice.
         </p>
       </PageHeader>
       <Section tw="py-0 pt-10 md:(py-0 pt-12)">
-        <Heading2 tw="mb-3">Join The Global Citizen Community</Heading2>
+        <Heading2>Join The Global Citizen Community</Heading2>
         <p>
           Members of the Global Citizen community are entitled to a supreme
           level of choice in terms of mobility, standard of living, education,
@@ -32,7 +32,7 @@ export default function Programs() {
           through our Global Citizen programs, products and services that offer
           a unique set of benefits and privileges.
         </p>
-        <Heading2 tw="mb-3 mt-8">Program Evaluation</Heading2>
+        <Heading2 tw="mt-8">Program Evaluation</Heading2>
         <p>
           Each Global Citizen program offers a host of unique benefits. We have
           have provided benchmarks against which each program can be evaluated
