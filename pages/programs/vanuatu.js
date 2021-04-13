@@ -90,8 +90,8 @@ export default function Vanuatu() {
           </li>
         </ul>
       </Section>
-      <Section tw="pt-0">
-        <Heading2 id="about">About Vanuatu</Heading2>
+      <Section id="about" tw="pt-0">
+        <Heading2>About Vanuatu</Heading2>
         <hr tw="border border-primary mt-2 mb-6 w-16" />
         <ProgramQuote>
           The Republic of Vanuatu is a Pacific island country located in the
@@ -144,6 +144,146 @@ export default function Vanuatu() {
           </Link>
           , and we will reply back as soon as possible.
         </p>
+      </Section>
+      <Section id="benefits" tw="pt-0 pb-0 md:(pt-0 pb-0)">
+        <Heading2>Vanuatu Citenzenship Program & Benefits</Heading2>
+        <hr tw="border border-primary mt-2 mb-6 w-16" />
+        <ProgramQuote>
+          In January 2017, the Government of the Republic of Vanuatu launched
+          their Development Support Program (VDSP) for the purpose of raising
+          funds to support infrastructure and promoting economic development of
+          Vanuatu. The DSP was enacted by the Vanuatu Government under the
+          Citizenship Act (CAP 112) with the powers conferred on the Prime
+          Minister by Section 20 of the Citizenship Act (112) Order No.215 of
+          2016.
+        </ProgramQuote>
+        <p>
+          The Republic of Vanuatu welcomes foreign investors to apply for
+          citizenship by investment program. By making an economic contribution
+          to the country’s DSP, Vanuatu grants its citizenships and passport to
+          the contributor, their spouse, children under 25 and parents over 50,
+          within the same application.
+        </p>
+        <p tw="mt-3">
+          Qualified individuals will be able to acquire citizenship within 3
+          months with no interview or residency requirements.
+        </p>
+      </Section>
+      <Section tw="pt-0 md:pt-0">
+        <Heading3>Key Benefits</Heading3>
+        <hr tw="border border-primary mt-2 mb-6 w-36" />
+        <ul
+          tw="list-style-type['☆'] pl-3"
+          css={`
+            & li {
+              padding-left: 0.5rem;
+            }
+          `}
+        >
+          <li>Vanuatu citizenship and passport in about 1-3 months</li>
+          <li>No residency requirement or interview to acquire citizenship</li>
+          <li>Vanuatu is open to most nationalities</li>
+          <li>
+            Visa-Free travel to more than 130 countries, including Schengen
+            countries, UK, Hong Kong and Singapore
+          </li>
+          <li>
+            Dependent children up to 25 years old and parents over 50 can be
+            part of the same application
+          </li>
+          <li>
+            Vanuatu has no income tax, wealth tax, capital gains or inheritance
+            tax
+          </li>
+          <li>Dual citizenship is allowed in Vanuatu</li>
+        </ul>
+      </Section>
+      <Section id="investment" tw="pt-0 md:(pt-0)">
+        <Heading2>Investment Criteria</Heading2>
+        <hr tw="border border-primary mt-2 mb-6 w-16" />
+        <Heading3>Requirements</Heading3>
+        <p>
+          The citizenship program of Vanuatu requires making a non-refundable
+          donation to the country’s Development Support Program (DSP).
+        </p>
+        <ul tw="list-disc pl-5 mt-4">
+          <li>
+            Single Applicant: A non-refundable contribution of USD 130,000
+          </li>
+          <li>
+            Main Applicant and Spouse: A non-refundable contribution of USD
+            150,000
+          </li>
+          <li>
+            Main Applicant, Spouse, and One Dependent: A non-refundable
+            contribution of USD 165,000
+          </li>
+          <li>
+            Main Applicant, Spouse, and Two Dependents: A non-refundable
+            contribution of USD 180,000
+          </li>
+          <li>Each additional qualifying dependent: USD 15,000</li>
+        </ul>
+      </Section>
+      <Section id="countries" tw="pt-0 pb-0 md:(pt-0 pb-0)">
+        <Heading2>Vanuatu Visa Free Countries</Heading2>
+        <hr tw="border border-primary mt-2 mb-6 w-16" />
+        <p>
+          With a passport from Vanuatu, you can travel visa-free to any of these
+          countries:
+        </p>
+        <ul
+          tw="mt-3 flex flex-wrap"
+          css={`
+            & li {
+              padding: 5px;
+              border: 1px solid #f8d59b;
+              margin-right: 5px;
+              margin-bottom: 5px;
+            }
+          `}
+        >
+          <li>Abkhazia</li>
+          <li>Antigua and Barbuda</li>
+          <li>Andorra</li>
+          <li>Anguilla</li>
+          <li>Austria</li>
+          <li>Azerbaijan</li>
+          <li>Bahamas</li>
+          <li>Barbados</li>
+          <li>Bangladesh</li>
+          <li>Belarus</li>
+          <li>Belgium</li>
+          <li>Belize</li>
+          <li>Bermuda</li>
+          <li>Bolivia</li>
+          <li>Botswana</li>
+          <li>British Virgin Islands</li>
+          <li>Burundi</li>
+          <li>Cambodia</li>
+          <li>Cape Verde</li>
+          <li>Cayman Islands</li>
+          <li>Columbia</li>
+          <li>Cook Islands</li>
+          <li>Comoros</li>
+          <li>Costa Rica</li>
+          <li>Czech Republic</li>
+          <li>Denmark</li>
+          <li>Djibouti</li>
+          <li>Dominica</li>
+          <li>Dominican Republic</li>
+          <li>Ecuador</li>
+          <li>El Salvador</li>
+          <li>Eritrea</li>
+          <li>Estonia</li>
+          <li>Federated States of Micronesia</li>
+          <li>Fiji Island</li>
+          <li>Finland</li>
+          <li>France</li>
+          <li>Gambia</li>
+          <li>Georgia</li>
+          <li>Germany</li>
+        </ul>
       </Section>
       <Footer noCallout />
     </main>
