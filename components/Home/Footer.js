@@ -93,8 +93,9 @@ export default function Footer({ noCallout }) {
             `}
           >
             <a tw="transition hocus:opacity-80" href="https://google.com">
-              3 GbemiOluwa Close <br /> Sule Abukar Crescent <br /> Opebi <br />
-              Ikeja, Lagos.
+              3A Ladipo Bateye Street
+              <br /> GRA-Ikeja <br />
+              Lagos.
             </a>
             <p tw="cursor-pointer mt-5 transition hocus:opacity-80">
               Subscribe to our newsletter
