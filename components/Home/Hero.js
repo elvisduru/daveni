@@ -72,7 +72,7 @@ export default function Hero() {
           <span>{item.title}</span>
         </h2>
         <p tw="text-sm leading-relaxed whitespace-pre-line">{item.desc}</p>
-        <Link href="/">
+        <Link href="/contact">
           <a tw="flex w-44 bg-primary text-dark outline-none justify-between mt-14 border border-primary rounded px-5 py-3 cursor-pointer font-semibold uppercase text-sm transition hocus:(bg-transparent border-white text-white)">
             Get Started <span>&#10230;</span>
           </a>

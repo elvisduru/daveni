@@ -20,7 +20,7 @@ const testimonialList = [
   },
   {
     id: 2,
-    image: 'anitugua-barbuda.jpg',
+    image: 'antigua-barbuda.jpg',
     text:
       'I applied for a Antigua and Barbuda citizenship through Daveni Partners, and the process could not have gone more smoothly. Their team is very organized and professional. They are the best Citizenship by Investment company to use if you are looking for a second passport.',
     name: 'Nedum Onuoha',
@@ -60,7 +60,7 @@ export default function Testimonial() {
       <img
         tw="rounded-full shadow-2xl w-20 h-20 md:(w-32 h-32) mb-8"
         src={`/images/${item.image}`}
-        alt="Elvis Duru"
+        alt={item.name}
       />
       <p tw="text-xs mb-4 md:(mb-8 text-lg)">{item.text}</p>
       <p tw="text-primary text-xs md:text-base">{item.name}</p>

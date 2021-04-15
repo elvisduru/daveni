@@ -77,7 +77,7 @@ export default function Citizen() {
           for local citizens, thereby improving the country’s economy.
         </p>
         <Link href="/contact">
-          <a tw="block mt-5 underline color[#D9A55A]">
+          <a tw="block cursor-pointer mt-5 underline color[#D9A55A]">
             Discover the power of global citizenship now.
           </a>
         </Link>
