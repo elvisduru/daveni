@@ -13,7 +13,7 @@ const partnerList = [
   {
     title: 'Certified Partners',
     desc:
-      "Daveni endows its Certified Partner network with tools, services and training to deliver the best possible experience to clients seeking to invest in second residence or citizenship. Arton's partners are able to advise clients on virtually any matter in any jurisdiction around the world.",
+      'Daveni endows its Certified Partner network with tools, services and training to deliver the best possible experience to clients seeking to invest in second residence or citizenship. Daveni Partners are able to advise clients on virtually any matter in any jurisdiction around the world.',
   },
   {
     title: 'Government Agencies',

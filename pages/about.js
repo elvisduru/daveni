@@ -67,10 +67,6 @@ export default function About() {
         >
           <li>A multilingual team of consultants</li>
           <li>An impeccable track record of success</li>
-          <li>
-            Moneyback guarantee (If your application is denied, you pay us
-            nothing)
-          </li>
           <li>Free consultation, pre-screening, and assessment</li>
           <li>Unmatched confidentiality standards</li>
           <li>

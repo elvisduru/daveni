@@ -49,7 +49,7 @@ export default function Citizen() {
         </Heading3>
         <p>
           Whether you are seeking permanent residency or a second citizenship,
-          it all starts with Arton through our unparalleled range of innovative,
+          it all starts with Daveni Partners through our unparalleled range of innovative,
           bespoke investor programs and services. Learn how becoming a Global
           Citizen can help you create the opportunities you need to make the
           world a better place for yourself, your family and for all of us.
@@ -62,7 +62,7 @@ export default function Citizen() {
           Our burgeoning industry requires focused teamwork to ensure that our
           clients receive the best service possible from the start of the
           application process through to obtainment of PR or citizenship and
-          beyond. Arton Capital’s Certified Partner network allows global
+          beyond. Daveni Partners' Certified Partner network allows global
           citizens to have the required guidance whenever, wherever they need
           it.
         </p>
