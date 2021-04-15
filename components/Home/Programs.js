@@ -11,22 +11,22 @@ const programs = [
   {
     image: 'antigua-barbuda.jpg',
     title: 'Antigua & Barbuda',
-    url: '/',
+    url: '/programs/antigua-barbuda',
   },
   {
     image: 'st-lucia.jpg',
     title: 'St. Lucia',
-    url: '/',
+    url: '/programs/st-lucia',
   },
   {
     image: 'solomon-islands.jpg',
     title: 'Solomon Islands',
-    url: '/',
+    url: '/programs/solomon-islands',
   },
   {
     image: 'grenada.jpg',
     title: 'Grenada',
-    url: '/',
+    url: '/programs/grenada',
   },
 ]
 
