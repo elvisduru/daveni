@@ -10,7 +10,7 @@ export default function Citizen() {
   return (
     <main>
       <Head>
-        <title>Global Citizenship Overview | Global Citizenship Company</title>
+        <title>Global Citizenship Overview | Daveni Partners</title>
       </Head>
       <NavBar />
       <PageHeader>

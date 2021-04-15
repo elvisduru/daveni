@@ -11,7 +11,7 @@ import NavBar from '../components/NavBar'
 const IndexPage = () => (
   <main>
     <Head>
-      <title>Daveni | Global Citizenship Company</title>
+      <title>Daveni Partners | Global Citizenship Company</title>
     </Head>
     <NavBar />
     <Hero />

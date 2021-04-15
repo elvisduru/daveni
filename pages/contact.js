@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <main>
       <Head>
-        <title>Contact Us | Global Citizenship Company</title>
+        <title>Contact Us | Daveni Partners</title>
       </Head>
       <NavBar />
       <PageHeader>

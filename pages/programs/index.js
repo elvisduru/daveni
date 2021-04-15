@@ -10,9 +10,7 @@ export default function Programs() {
   return (
     <main>
       <Head>
-        <title>
-          Citizenship Programs Overview | Global Citizenship Company
-        </title>
+        <title>Citizenship Programs Overview | Daveni Partners</title>
       </Head>
       <NavBar />
       <PageHeader image="fine-building">
