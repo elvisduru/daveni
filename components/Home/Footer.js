@@ -111,7 +111,9 @@ export default function Footer({ noCallout }) {
             `}
           >
             <a href="tel:+2348085799962">(234) 808-579-9962</a> <br />
-            <a href="mailto:hello@daveni.co">hello@daveni.co</a>
+            <a href="mailto:hello@davenipartners.com">
+              hello@davenipartners.com
+            </a>
             <div tw="mt-5">
               <h5 tw="font-medium mb-2">Follow us</h5>
               <ul

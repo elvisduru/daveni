@@ -138,7 +138,8 @@ export default function Vanuatu() {
           citizenship, feel free to give us a call at{' '}
           <a href="tel:+2348085799962">(234) 808-579-9962</a>. You can also
           contact us through email at{' '}
-          <a href="mailto:hello@daveni.co">hello@daveni.co</a> or fill in our{' '}
+          <a href="mailto:hello@davenipartners.com">hello@davenipartners.com</a>{' '}
+          or fill in our{' '}
           <Link href="/contact">
             <a>online contact form</a>
           </Link>

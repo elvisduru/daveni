@@ -183,9 +183,9 @@ export default function ContactForm() {
             </a>
           </li>
           <li>
-            <a href="mailto:hello@daveni.co">
+            <a href="mailto:hello@davenipartners.com">
               <img src="/images/email.svg" alt="Email" />
-              hello@daveni.co
+              hello@davenipartners.com
             </a>
           </li>
           <li>
