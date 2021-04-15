@@ -78,7 +78,7 @@ export default function AntiguaBarbuda() {
         >
           <li>
             <Link href="#about">
-              <a>Vanuatu</a>
+              <a>Antigua &amp; Barbuda</a>
             </Link>
           </li>
           <li>
@@ -228,7 +228,9 @@ export default function AntiguaBarbuda() {
         </ul>
         <Heading3>Antigua and Barbuda Investment Options</Heading3>
         <Heading3>Option 1</Heading3>
-        <p>National Development Fund (NDF) – Non-Refundable</p>
+        <p tw="font-semibold">
+          National Development Fund (NDF) – Non-Refundable
+        </p>
         <ul
           tw="list-disc pl-5 mt-4"
           css={`
@@ -263,7 +265,7 @@ export default function AntiguaBarbuda() {
           </li>
         </ul>
         <Heading3>Option 2</Heading3>
-        <p>Purchase of Government-Approved Real Estate</p>
+        <p tw="font-semibold">Purchase of Government-Approved Real Estate</p>
         <p tw="mt-3">
           To qualify for citizenship of Antigua & Barbuda under the Real Estate
           Option of the Citizenship by Investment Program, an applicant must
@@ -292,7 +294,7 @@ export default function AntiguaBarbuda() {
           </li>
         </ul>
         <Heading3>Option 3</Heading3>
-        <p>University of the West Indies Fund Option</p>
+        <p tw="font-semibold">University of the West Indies Fund Option</p>
         <ul
           tw="list-disc pl-5 mt-4"
           css={`
