@@ -12,7 +12,13 @@ export default function Contact() {
         <title>Contact Us | Daveni Partners</title>
       </Head>
       <NavBar />
-      <PageHeader>
+      <PageHeader
+        css={`
+          background-image: linear-gradient(black, black),
+            url(/images/vanuatu-header.jpg);
+          background-blend-mode: saturation;
+        `}
+      >
         <h1 tw="font-semibold text-3xl">Schedule An Appointment</h1>
         <p tw="text-sm mt-2 leading-relaxed color[#D9A55A] max-width[30ex]">
           Let's make some magic together

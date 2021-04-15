@@ -13,7 +13,13 @@ export default function Citizen() {
         <title>Global Citizenship Overview | Daveni Partners</title>
       </Head>
       <NavBar />
-      <PageHeader>
+      <PageHeader
+        css={`
+          background-image: linear-gradient(black, black),
+            url(/images/vanuatu-header.jpg);
+          background-blend-mode: saturation;
+        `}
+      >
         <h1 tw="font-semibold text-2xl">Are You a Global Citizen?</h1>
         <p tw="text-sm mt-2 leading-relaxed color[#D9A55A] max-width[30ex]">
           Let us help you become one
@@ -49,10 +55,11 @@ export default function Citizen() {
         </Heading3>
         <p>
           Whether you are seeking permanent residency or a second citizenship,
-          it all starts with Daveni Partners through our unparalleled range of innovative,
-          bespoke investor programs and services. Learn how becoming a Global
-          Citizen can help you create the opportunities you need to make the
-          world a better place for yourself, your family and for all of us.
+          it all starts with Daveni Partners through our unparalleled range of
+          innovative, bespoke investor programs and services. Learn how becoming
+          a Global Citizen can help you create the opportunities you need to
+          make the world a better place for yourself, your family and for all of
+          us.
         </p>
         <Heading3 tw="mt-8">
           Are you a professional service provider with expertise in global
