@@ -14,7 +14,10 @@ export default function Contact() {
       <NavBar />
       <PageHeader
         css={`
-          background-image: linear-gradient(black, black),
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.7),
+              rgba(0, 0, 0, 0.7)
+            ),
             url(/images/vanuatu-header.jpg);
           background-blend-mode: saturation;
         `}

@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Footer from '../components/Home/Footer'
-import Testimonial from '../components/Home/Testimonial'
 import NavBar from '../components/NavBar'
 import { Heading3, PageHeader, Section } from '../components/Common'
 import 'twin.macro'
@@ -15,7 +14,10 @@ export default function Citizen() {
       <NavBar />
       <PageHeader
         css={`
-          background-image: linear-gradient(black, black),
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.7),
+              rgba(0, 0, 0, 0.7)
+            ),
             url(/images/vanuatu-header.jpg);
           background-blend-mode: saturation;
         `}

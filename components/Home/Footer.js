@@ -147,7 +147,9 @@ export default function Footer({ noCallout }) {
                   }
                 `}
               >
-                <li>FB</li>
+                <li>
+                  <a href="https://web.facebook.com/davenipartners/">FB</a>
+                </li>
                 <li>TW</li>
                 <li>INS</li>
                 <li>LKD</li>
