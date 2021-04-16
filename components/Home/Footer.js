@@ -77,7 +77,11 @@ export default function Footer({ noCallout }) {
         </button>
         <div tw="flex flex-col py-10 lg:flex-row">
           <div tw="flex flex-col items-start mb-12 lg:(max-w-sm mr-12 flex-row)">
-            <img tw="mb-8 lg:mr-8 w-24" src="/images/logo.svg" alt="Daveni" />
+            <img
+              tw="mb-8 lg:mr-8 w-32"
+              src="/images/logo-footer.png"
+              alt="Daveni"
+            />
             <p tw="font-medium">
               We are proudly accountable to a better way of doing business. We
               actively pursue the wellbeing of staff, communities and
