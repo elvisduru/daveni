@@ -78,7 +78,11 @@ export default function ContactForm() {
 
   return (
     <div tw="grid lg:grid-cols-3 background-color[#f4f0df] rounded-tl-3xl rounded-bl-sm rounded-br-3xl shadow-2xl">
-      <form tw="rounded-tl-3xl rounded-bl-sm col-span-2 grid grid-cols-2 gap-5 py-5 px-10">
+      <form
+        action="https://formsubmit.co/e68251fb9e339670b0429f72ae2883fc"
+        method="POST"
+        tw="rounded-tl-3xl rounded-bl-sm col-span-2 grid grid-cols-2 gap-5 py-5 px-10"
+      >
         <p tw="font-semibold col-span-2">Please fill this form</p>
         <Input
           tw="col-span-2 md:col-span-1"
