@@ -211,22 +211,22 @@ export default function ContactForm() {
           `}
         >
           <li>
-            <a href="https://facebook.com">
+            <a href="https://facebook.com/davenipartners">
               <img src="/images/facebook.svg" alt="Facebook" />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com">
+            <a href="https://twitter.com/davenipartners">
               <img src="/images/twitter.svg" alt="Twitter" />
             </a>
           </li>
           <li>
-            <a href="https://instagram.com">
+            <a href="https://instagram.com/davenipartners">
               <img src="/images/instagram.svg" alt="Instagram" />
             </a>
           </li>
           <li>
-            <a href="https://linkedin.com">
+            <a href="https://linkedin.com/company/davenipartners">
               <img src="/images/linkedin.svg" alt="LinkedIn" />
             </a>
           </li>

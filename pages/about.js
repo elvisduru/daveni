@@ -15,7 +15,7 @@ export default function About() {
       <NavBar />
       <PageHeader image="office-space">
         <h1 tw="font-semibold text-3xl">
-          Africa's Largest Citienzhip By Investment Company
+          Africa's Leading Citizenship By Investment Company
         </h1>
       </PageHeader>
       <Section

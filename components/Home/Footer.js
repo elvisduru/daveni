@@ -154,9 +154,17 @@ export default function Footer({ noCallout }) {
                 <li>
                   <a href="https://web.facebook.com/davenipartners/">FB</a>
                 </li>
-                <li>TW</li>
-                <li>INS</li>
-                <li>LKD</li>
+                <li>
+                  <a href="https://twitter.com/davenipartners/">TW</a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/davenipartners/">INS</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/davenipartners">
+                    LKD
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
