@@ -28,7 +28,7 @@ const stats = [
   {
     title: 'Race',
     icon: '/images/map.svg',
-    value: 'Carribean',
+    value: 'Oceania',
   },
   {
     title: 'Regions',
@@ -284,6 +284,84 @@ export default function Vanuatu() {
           <li>Gambia</li>
           <li>Georgia</li>
           <li>Germany</li>
+          <li>Ghana</li>
+          <li>Gibraltar</li>
+          <li>Greece</li>
+          <li>Grenada</li>
+          <li>Guatemala</li>
+          <li>Haiti</li>
+          <li>Honduras</li>
+          <li>Hong Kong</li>
+          <li>Hungary</li>
+          <li>Iceland</li>
+          <li>Iran</li>
+          <li>Iraq</li>
+          <li>Ireland</li>
+          <li>Italy</li>
+          <li>Jamaica</li>
+          <li>Jordan</li>
+          <li>Kenya</li>
+          <li>Kiribati</li>
+          <li>Kosovo</li>
+          <li>Kuwait</li>
+          <li>Laos</li>
+          <li>Latvia</li>
+          <li>Lebanon</li>
+          <li>Lesotho</li>
+          <li>Liberia</li>
+          <li>Lithuania</li>
+          <li>Luxembourg</li>
+          <li>Macau</li>
+          <li>Madagascar</li>
+          <li>Malawi</li>
+          <li>Malaysia</li>
+          <li>Maldives</li>
+          <li>Mali</li>
+          <li>Malta</li>
+          <li>Marshall Islands</li>
+          <li>Mauritius</li>
+          <li>Micronesia</li>
+          <li>Montserrat</li>
+          <li>Mozambique</li>
+          <li>Nauru</li>
+          <li>Netherlands</li>
+          <li>Nicaragua</li>
+          <li>Niue</li>
+          <li>Norway</li>
+          <li>Palau</li>
+          <li>Papua New Guinea</li>
+          <li>Peru</li>
+          <li>Philippines</li>
+          <li>Pitcairn Island</li>
+          <li>Poland</li>
+          <li>Portugal</li>
+          <li>Saint Helena</li>
+          <li>Saint Kitts & Nevis</li>
+          <li>Saint Lucia</li>
+          <li>Saint Vincent and Grenadines</li>
+          <li>Samoa</li>
+          <li>Seychelles</li>
+          <li>Singapore</li>
+          <li>Slovak Republic</li>
+          <li>Slovenia</li>
+          <li>Solomon Islands</li>
+          <li>South Korea</li>
+          <li>South Ossetia</li>
+          <li>Spain</li>
+          <li>Sweden</li>
+          <li>Switzerland</li>
+          <li>Tanzania</li>
+          <li>Timor and Leste</li>
+          <li>Togo</li>
+          <li>Tokelau</li>
+          <li>Tonga</li>
+          <li>Trinidad and Tobago</li>
+          <li>Turks and Caicos Islands</li>
+          <li>Tuvalu</li>
+          <li>Uganda</li>
+          <li>United Kingdom Including Guernsey, Isle of Man and Jersey</li>
+          <li>Zambia</li>
+          <li>Zimbabwe</li>
         </ul>
       </Section>
       <Footer />
