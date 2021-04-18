@@ -196,10 +196,9 @@ export default function ContactForm() {
             <Link href="/">
               <a>
                 <img src="/images/pin.svg" alt="Address" />
-                3 GbemiOluwa Close <br />
-                Sule Abukar Crescent <br />
-                Opebi <br />
-                Ikeja, Lagos.
+                3A Ladipo Bateye Street
+                <br /> GRA-Ikeja <br />
+                Lagos.
               </a>
             </Link>
           </li>
