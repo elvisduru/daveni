@@ -38,7 +38,7 @@ const stats = [
   {
     title: 'Population',
     icon: '/images/population.svg',
-    value: '276,244',
+    value: '307,145',
   },
 ]
 
