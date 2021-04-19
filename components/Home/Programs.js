@@ -7,26 +7,31 @@ const programs = [
     image: 'vanuatu.jpg',
     title: 'Vanuatu',
     url: '/programs/vanuatu',
+    flag: 'vanuatu-flag-round-icon-32.png',
   },
   {
     image: 'antigua-barbuda.jpg',
     title: 'Antigua & Barbuda',
     url: '/programs/antigua-barbuda',
+    flag: 'antigua-and-barbuda-flag-round-icon-32.png',
   },
   {
     image: 'st-lucia.jpg',
     title: 'St. Lucia',
     url: '/programs/st-lucia',
+    flag: 'saint-lucia-flag-round-icon-32.png',
   },
   {
     image: 'solomon-islands.jpg',
     title: 'Solomon Islands',
     url: '/programs/solomon-islands',
+    flag: 'solomon-islands-flag-round-icon-32.png',
   },
   {
     image: 'grenada.jpg',
     title: 'Grenada',
     url: '/programs/grenada',
+    flag: 'grenada-flag-round-icon-32.png',
   },
 ]
 
@@ -50,14 +55,14 @@ export default function Programs({ headingSm, title = 'Popular Programs' }) {
       </Heading2>
       <hr tw="mt-3 bg-center bg-no-repeat border-0 bg-contain h-5 w-56 background-image[url(/images/heading-line-black.png)]" />
       <div tw="grid auto-cols-max gap-5 md:grid-cols-2 lg:grid-cols-4">
-        {programs.map(({ image, title, url }, i) =>
+        {programs.map(({ image, title, url, flag }, i) =>
           i === 0 ? (
             <Link key={i} href={url}>
               <a tw="mt-8 col-span-full" css={hoverStyles}>
                 <Card bgImage={image}>
                   <div tw="flex justify-between relative">
-                    <div tw="bg-white shadow-lg w-7 h-7 p-1 flex justify-center items-center rounded-full">
-                      5 <span className="star" tw="w-3 h-3" />
+                    <div tw="shadow-lg w-7 h-7 flex justify-center items-center rounded-full">
+                      <img src={`/images/${flag}`} alt={flag} />
                     </div>
                     <div tw="bg-white shadow rounded-full px-3 flex items-center text-xs font-semibold">
                       Citizenship By Investment
@@ -79,8 +84,8 @@ export default function Programs({ headingSm, title = 'Popular Programs' }) {
               <a css={hoverStyles}>
                 <Card tw="h-64" bgImage={image}>
                   <div tw="flex justify-between relative">
-                    <div tw="bg-white text-sm shadow-lg w-7 h-7 p-1 flex justify-center items-center rounded-full">
-                      5 <span className="star" tw="w-3 h-3" />
+                    <div tw="shadow-lg w-7 h-7 flex justify-center items-center rounded-full">
+                      <img src={`/images/${flag}`} alt={flag} />
                     </div>
                     <div
                       tw="bg-white shadow rounded-full px-3 ml-2 flex items-center font-semibold max-w-max leading-tight flex-grow-0"
