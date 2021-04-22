@@ -172,8 +172,8 @@ export default function Footer({ noCallout }) {
       </div>
       <div tw="text-center">
         Made with ♥ By{' '}
-        <a tw="underline" href="https://elvisduru.com">
-          Elvis Duru
+        <a tw="underline" href="//elvisduru.github.io">
+          @the_levelup_dev
         </a>
       </div>
     </footer>
