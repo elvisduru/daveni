@@ -38,7 +38,7 @@ const stats = [
   {
     title: 'Population',
     icon: '/images/population.svg',
-    value: '307,145',
+    value: '314,464',
   },
 ]
 
@@ -166,8 +166,7 @@ export default function Vanuatu() {
           within the same application.
         </p>
         <p tw="mt-3">
-          Qualified individuals will be able to acquire citizenship within 3
-          months with no interview or residency requirements.
+          Qualified individuals will be able to acquire citizenship within 60 days with no interview or residency requirements.
         </p>
       </Section>
       <Section tw="pt-0 md:pt-0">
@@ -181,7 +180,7 @@ export default function Vanuatu() {
             }
           `}
         >
-          <li>Vanuatu citizenship and passport in about 1-3 months</li>
+          <li>Vanuatu citizenship and passport in about 60 days</li>
           <li>No residency requirement or interview to acquire citizenship</li>
           <li>Vanuatu is open to most nationalities</li>
           <li>
