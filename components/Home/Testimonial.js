@@ -9,21 +9,21 @@ const testimonialList = [
     image: 'vanuatu.jpg',
     text:
       'My experience with Daveni Partners was incredible. I have applied for the Vanuatu Citizenship program with my family through them, and they were extremely responsive and transparent during the entire process. My passport came in quite on time!',
-    name: 'Elvis Duru',
+    name: '',
   },
   {
     id: 1,
-    image: 'st-lucia.jpg',
+    image: 'vanuatu.jpg',
     text:
-      'I have applied for St. Lucia Citizenship through Daveni Partners on the recommendation of a friend. Their team was highly responsive and attentive to all my inquiries, they have kept me updated through the entire process and made sure that everything was done perfectly. special thanks to the CEO Mr Bola for his assistance in my application.',
-    name: 'Kunle Dayo',
+      'I have applied for Vanuatu Citizenship through Daveni Partners on the recommendation of a friend. Their team was highly responsive and attentive to all my inquiries, they have kept me updated through the entire process and made sure that everything was done perfectly. special thanks to the CEO Mr Bola for his assistance in my application.',
+    name: '',
   },
   {
     id: 2,
-    image: 'antigua-barbuda.jpg',
+    image: 'vanuatu.jpg',
     text:
-      'I applied for a Antigua and Barbuda citizenship through Daveni Partners, and the process could not have gone more smoothly. Their team is very organized and professional. They are the best Citizenship by Investment company to use if you are looking for a second passport.',
-    name: 'Nedum Onuoha',
+      'I applied for a Vanuatu citizenship through Daveni Partners, and the process could not have gone more smoothly. Their team is very organized and professional. They are the best Citizenship by Investment company to use if you are looking for a second passport.',
+    name: '',
   },
 ]
 
