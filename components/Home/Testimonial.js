@@ -15,7 +15,7 @@ const testimonialList = [
     id: 1,
     image: 'vanuatu.jpg',
     text:
-      'I have applied for Vanuatu Citizenship through Daveni Partners on the recommendation of a friend. Their team was highly responsive and attentive to all my inquiries, they have kept me updated through the entire process and made sure that everything was done perfectly. special thanks to the CEO Mr Bola for his assistance in my application.',
+      'I have applied for Vanuatu Citizenship through Daveni Partners on the recommendation of a friend. Their team was highly responsive and attentive to all my inquiries, they have kept me updated through the entire process and made sure that everything was done perfectly. special thanks to the CEO Mr Bola Omotayo for his assistance in my application.',
     name: '',
   },
   {
