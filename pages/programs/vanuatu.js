@@ -38,7 +38,7 @@ const stats = [
   {
     title: 'Population',
     icon: '/images/population.svg',
-    value: '314,464',
+    value: 'Over 300,000',
   },
 ]
 
@@ -112,7 +112,7 @@ export default function Vanuatu() {
           States, Non-Aligned Movement, Organization international de la
           Francophonie, Pacific Community, Pacific Islands Forum, United Nations
           and World Trade Organization. The country’s population is
-          approximately 270,000 and encompasses a diversity of languages spoken
+          over 300,000 and encompasses a diversity of languages spoken
           such as French, English and Bislama.
         </p>
         <Heading3>Secure Your Vanuatu Citizenship By Investment</Heading3>
