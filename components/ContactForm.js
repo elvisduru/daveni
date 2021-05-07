@@ -142,7 +142,7 @@ export default function ContactForm() {
         />
         <Input
           tw="col-span-2"
-          label="I have a minimum of USD$100,000 to invest.
+          label="I have a minimum of USD$130,000 to invest.
           "
           type="radio"
           value={fields.canInvest}
