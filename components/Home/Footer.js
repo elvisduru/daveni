@@ -158,7 +158,7 @@ export default function Footer({ noCallout }) {
                   <a href="https://twitter.com/davenipartners/">TW</a>
                 </li>
                 <li>
-                  <a href="https://instagram.com/davenipartners/">INS</a>
+                  <a href="https://instagram.com/davenipartners_/">INS</a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/company/davenipartners">
