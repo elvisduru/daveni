@@ -33,7 +33,7 @@ export default function Programs() {
         <Heading3 tw="mt-8">Program Evaluation</Heading3>
         <p>
           Each Global Citizen program offers a host of unique benefits. We have
-          have provided benchmarks against which each program can be evaluated
+          provided benchmarks against which each program can be evaluated
           based on particular needs and goals. Applicants can compare them
           against one another to find the right fit.
         </p>
