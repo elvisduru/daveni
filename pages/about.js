@@ -67,7 +67,8 @@ export default function About() {
         >
           <li>A multilingual team of consultants</li>
           <li>An impeccable track record of success</li>
-          <li>Free consultation, pre-screening, and assessment</li>
+          <li>Free consultation</li>
+          <li>Pre-screening, and assessment (are not free)</li>
           <li>Unmatched confidentiality standards</li>
           <li>
             A customer-centric approach Experience working with clients of all
