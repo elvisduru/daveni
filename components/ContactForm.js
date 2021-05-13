@@ -14,7 +14,7 @@ const Input = ({
 }) =>
   type === 'radio' ? (
     <div className={className} tw="flex flex-col text-xs">
-      <p tw="mb-2 uppercase">*I have a minimum of USD$100,000 to invest.</p>
+      <p tw="mb-2 uppercase">*I have a minimum of USD$130,000 to invest.</p>
       {options.map((option, i) => (
         <label key={i} className={className} tw="text-base">
           <input
