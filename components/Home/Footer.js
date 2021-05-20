@@ -120,7 +120,7 @@ export default function Footer({ noCallout }) {
               hello@davenipartners.com
             </a>
             <div tw="mt-5">
-              <h5 tw="font-medium mb-2">Follow us</h5>
+              <h5 tw="font-medium mb-2">Click Below to Follow Us</h5>
               <ul
                 tw="flex"
                 css={`
