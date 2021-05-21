@@ -151,7 +151,7 @@ export default function ContactForm() {
           required
           handleInput={handleInput}
         />
-        <input type="hidden" name="_autoresponse" value="Thanks for being awesome!\n\nWe have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the telephone numbers listed below to talk to one of our senior consultants.\n0808 579 9962\n0913 105 6660\n\nOtherwise, we will reply you by email as soon as possible.\n\nRegards, \nAdmin\nDaveni Partners">
+        <input type="hidden" name="_autoresponse" value="Thanks for being awesome!\n\nWe have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the telephone numbers listed below to talk to one of our senior consultants.\n0808 579 9962\n0913 105 6660\n\nOtherwise, we will reply you by email as soon as possible.\n\nRegards, \nAdmin\nDaveni Partners" />
         <button
           tw="col-span-2 place-self-start bg-primary px-5 py-2 rounded-tr-xl rounded-bl-xl uppercase text-sm font-semibold hocus:text-white mt-5"
           type="submit"
