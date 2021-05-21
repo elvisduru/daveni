@@ -153,15 +153,15 @@ export default function ContactForm() {
         />
         <textarea style={{display: "none"}} name="_autoresponse">
           Thanks for being awesome!
-            
+          &#13;&#10;  
           We have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the telephone numbers listed below to talk to one of our senior consultants.
           0808 579 9962
           0913 105 6660
-          
+          &#13;&#10;
           Otherwise, we will reply you by email as soon as possible.
-          
-          Regards, 
-          Admin
+          &#13;&#10;
+          Regards, &#13;&#10;
+          Admin&#13;&#10;
           Daveni Partners
         </textarea>
         <button
