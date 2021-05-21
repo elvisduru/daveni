@@ -151,7 +151,7 @@ export default function ContactForm() {
           required
           handleInput={handleInput}
         />
-        <textarea style={{display: "none"}}" name="_autoresponse">
+        <textarea style={{display: "none"}} name="_autoresponse">
           Thanks for being awesome!
             
           We have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the telephone numbers listed below to talk to one of our senior consultants.
