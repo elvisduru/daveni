@@ -12,6 +12,7 @@ const IndexPage = () => (
   <main>
     <Head>
       <title>Daveni Partners | Global Citizenship Company</title>
+      <meta name="facebook-domain-verification" content="63c3ijf6n3qz3umb4pluvmsdlb1xyh" />
     </Head>
     <NavBar />
     <Hero />
