@@ -4,7 +4,6 @@
 
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
-import { FB_PIXEL_ID } from '../lib/fpixel'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -65,7 +64,7 @@ export default class MyDocument extends Document {
                 t.src=v;s=b.getElementsByTagName(e)[0];
                 s.parentNode.insertBefore(t,s)}(window, document,'script',
                 'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', ${FB_PIXEL_ID});fbq('track', 'PageView');fbq('track', 'Lead');fbq('track', 'Schedule');
+                fbq('init', '1157619524738023');fbq('track', 'PageView');fbq('track', 'Lead');fbq('track', 'Schedule');
               `,
             }}
           />
@@ -74,7 +73,7 @@ export default class MyDocument extends Document {
               height="1"
               width="1"
               style={{ display: 'none' }}
-              src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
+              src={`https://www.facebook.com/tr?id=1157619524738023&ev=PageView&noscript=1`}
             />
           </noscript>
         </Head>
