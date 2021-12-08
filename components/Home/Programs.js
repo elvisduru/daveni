@@ -33,6 +33,13 @@ const programs = [
     url: '/programs/grenada',
     flag: 'grenada-flag-round-icon-32.png',
   },
+  {
+    image: 'uk.jpg',
+    title: 'United Kingdom',
+    url: '/programs/uk',
+    flag: 'united-kingdom-flag-round-icon-32.png',
+    residency: true,
+  },
 ]
 
 const Card = styled.div(({ bgImage }) => [
@@ -55,7 +62,7 @@ export default function Programs({ headingSm, title = 'Popular Programs' }) {
       </Heading2>
       <hr tw="mt-3 bg-center bg-no-repeat border-0 bg-contain h-5 w-56 background-image[url(/images/heading-line-black.png)]" />
       <div tw="grid auto-cols-max gap-5 md:grid-cols-2 lg:grid-cols-4">
-        {programs.map(({ image, title, url, flag }, i) =>
+        {programs.map(({ image, title, url, flag, residency }, i) =>
           i === 0 ? (
             <Link key={i} href={url}>
               <a tw="mt-8 col-span-full" css={hoverStyles}>
@@ -91,7 +98,9 @@ export default function Programs({ headingSm, title = 'Popular Programs' }) {
                       tw="bg-white shadow rounded-full px-3 ml-2 flex items-center font-semibold max-w-max leading-tight flex-grow-0"
                       style={{ fontSize: 10 }}
                     >
-                      Citizenship By Investment
+                      {residency
+                        ? 'Residency Programs'
+                        : 'Citizenship By Investment'}
                     </div>
                   </div>
                   <div tw="flex flex-col mt-auto">

@@ -78,7 +78,7 @@ export default function StLucia() {
         >
           <li>
             <Link href="#about">
-              <a>Vanuatu</a>
+              <a>Saint Lucia</a>
             </Link>
           </li>
           <li>
