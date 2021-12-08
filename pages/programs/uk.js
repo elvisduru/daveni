@@ -82,13 +82,7 @@ export default function UK() {
             </Link>
           </li>
           <li>
-            <Link href="#benefits">Program &amp; Benefits</Link>
-          </li>
-          <li>
-            <Link href="#investment">Investment Options</Link>
-          </li>
-          <li>
-            <Link href="#countries">Visa Free Countries</Link>
+            <Link href="#programs">Program &amp; Benefits</Link>
           </li>
         </ul>
       </Section>
@@ -132,7 +126,7 @@ export default function UK() {
           </li>
         </ul>
       </Section>
-      <Section id="investment" tw="pt-0 md:(pt-0)">
+      <Section id="programs" tw="pt-0 md:(pt-0)">
         <Heading2>Residency Programs</Heading2>
         <hr tw="border border-primary mt-2 mb-6 w-16" />
         <Heading3>
