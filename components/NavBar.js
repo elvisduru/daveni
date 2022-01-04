@@ -15,10 +15,10 @@ const links = [
     name: 'About Us',
     link: '/about',
   },
-  {
-    name: 'Global Citizenship',
-    link: '/citizen',
-  },
+  // {
+  //   name: 'Global Citizenship',
+  //   link: '/citizen',
+  // },
   {
     name: 'Programs',
     link: '/programs',
