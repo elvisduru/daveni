@@ -151,18 +151,13 @@ export default function ContactForm() {
           required
           handleInput={handleInput}
         />
-        <textarea style={{display: "none"}} name="_autoresponse">
-          Thanks for being awesome!
-            
-          We have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the telephone numbers listed below to talk to one of our senior consultants.
-          +234 808 579 9962,
-          +234 913 105 6660.
-          
-          Otherwise, we will reply you by email as soon as possible.
-          
-          Regards,
-          Admin,
-          Daveni Partners.
+        <textarea style={{ display: 'none' }} name="_autoresponse">
+          Thanks for being awesome! We have received your message and would like
+          to thank you for writing to us. If your inquiry is urgent, please use
+          the telephone numbers listed below to talk to one of our senior
+          consultants. +234 808 579 9962, +234 913 105 6660. Otherwise, we will
+          reply you by email as soon as possible. Regards, Admin, Daveni
+          Partners.
         </textarea>
         <button
           tw="col-span-2 place-self-start bg-primary px-5 py-2 rounded-tr-xl rounded-bl-xl uppercase text-sm font-semibold hocus:text-white mt-5"
@@ -198,6 +193,14 @@ export default function ContactForm() {
               <img src="/images/phone-call.svg" alt="Phone call" />
               (234) 808-579-9962
             </a>
+          </li>
+          <li tw="ml-8">
+            <h4>Office Landline:</h4>
+            <a href="tel:+2349134015389">(234) 913-401-5389</a>
+          </li>
+          <li tw="ml-8">
+            <h4>Office Mobile:</h4>
+            <a href="tel:+2349131056660">(234) 913-105-6660</a>
           </li>
           <li>
             <a href="mailto:hello@davenipartners.com">
