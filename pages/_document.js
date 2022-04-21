@@ -52,6 +52,22 @@ export default class MyDocument extends Document {
             href="/favicon-16x16.png"
           />
           <link rel="shortcut icon" href="/favicon.ico" />
+          {/* Google Ads script */}
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-226680262-1"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'UA-226680262-1');
+              `,
+            }}
+          />
           {/* Global Site Code Pixel - Facebook Pixel */}
           <script
             dangerouslySetInnerHTML={{
