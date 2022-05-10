@@ -40,6 +40,12 @@ const programs = [
     flag: 'united-kingdom-flag-round-icon-32.png',
     residency: true,
   },
+  {
+    image: 'dominica.jpg',
+    title: 'The Commonwealth of Dominica',
+    url: '/programs/dominica',
+    flag: 'dominica-flag-round-icon-32.png',
+  },
 ]
 
 const Card = styled.div(({ bgImage }) => [

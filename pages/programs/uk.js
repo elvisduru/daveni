@@ -14,34 +14,6 @@ import NavBar from '../../components/NavBar'
 import 'twin.macro'
 import Link from 'next/link'
 
-const stats = [
-  {
-    title: 'Investment',
-    icon: '/images/money.svg',
-    value: 'From $100,000',
-  },
-  {
-    title: 'Program',
-    icon: '/images/passport.svg',
-    value: 'Citizenship & Passport',
-  },
-  {
-    title: 'Race',
-    icon: '/images/map.svg',
-    value: 'Carribean',
-  },
-  {
-    title: 'Regions',
-    icon: '/images/world.svg',
-    value: '134 Countries',
-  },
-  {
-    title: 'Population',
-    icon: '/images/population.svg',
-    value: '178,000',
-  },
-]
-
 export default function UK() {
   return (
     <main>
@@ -56,7 +28,6 @@ export default function UK() {
             Dieu et mon droit (God and my right)
           </ProgramLeading>
         </div>
-        {/* <ProgramStats stats={stats} /> */}
       </ProgramHero>
       <Section tw="md:py-0">
         <ul
