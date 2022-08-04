@@ -101,8 +101,8 @@ export default function UK() {
         <Heading2>Residency Programs</Heading2>
         <hr tw="border border-primary mt-2 mb-6 w-16" />
         <Heading3>
-          Tier 1 UK Investor Immigration Visa <br /> Minimum Investment
-          £2,000,000
+          Tier 1 UK Investor Immigration Visa (Tier 1 Investor visa route has
+          been closed.) <br /> Minimum Investment £2,000,000
         </Heading3>
         <p>
           The investor category is designed to allow wealthy individuals who
@@ -227,7 +227,8 @@ export default function UK() {
         </ul>
 
         <Heading3>
-          Representative of an Overseas Business Visa
+          Representative of an Overseas Business Visa (replaced as Global
+          Business Mobility)
           <br />
           No Investment Required
         </Heading3>
