@@ -46,6 +46,13 @@ const programs = [
     url: '/programs/dominica',
     flag: 'dominica-flag-round-icon-32.png',
   },
+  {
+    image: 'portugal.jpg',
+    title: 'Portugal',
+    url: '/programs/portugal',
+    flag: 'portugal-flag-round-icon-32.png',
+    residency: true,
+  },
 ]
 
 const Card = styled.div(({ bgImage }) => [

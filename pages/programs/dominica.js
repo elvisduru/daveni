@@ -1,18 +1,16 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import 'twin.macro'
 import {
   Heading2,
   Heading3,
   ProgramHeading,
   ProgramHero,
   ProgramLeading,
-  ProgramQuote,
-  ProgramStats,
   Section,
 } from '../../components/Common'
 import Footer from '../../components/Home/Footer'
 import NavBar from '../../components/NavBar'
-import 'twin.macro'
-import Link from 'next/link'
 
 export default function Dominica() {
   return (
