@@ -97,8 +97,8 @@ export default function Footer({ noCallout }) {
             `}
           >
             <a tw="transition hocus:opacity-80" href="https://google.com">
-              3A Ladipo Bateye Street
-              <br /> GRA-Ikeja <br />
+              3 Gbemi Oluwa Close,<br /> Off Sule Abuka Crescent
+              <br /> Off Opebi Road, Ikeja <br />
               Lagos.
             </a>
             <p tw="cursor-pointer mt-5 transition hocus:opacity-80">
