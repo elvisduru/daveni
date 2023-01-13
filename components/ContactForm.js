@@ -212,9 +212,9 @@ export default function ContactForm() {
             <Link href="/">
               <a>
                 <img src="/images/pin.svg" alt="Address" />
-                3A Ladipo Bateye Street
-                <br /> GRA-Ikeja <br />
-                Lagos.
+                3 Gbemi Oluwa Close,<br /> Off Sule Abuka Crescent
+              <br /> Off Opebi Road, Ikeja <br />
+              Lagos.
               </a>
             </Link>
           </li>
